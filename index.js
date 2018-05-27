@@ -5,6 +5,13 @@ const drivers =
 {name: "tammy"}
 ]
 
+function findMatching(drivers, value){
+  let matching = drivers.filter(function(driver){
+  return  driver.name == value
+  })
+  return matching
+}
+
 // let newCollection = []
 
 // function findMatching(value, driver){
@@ -15,11 +22,3 @@ const drivers =
 //   }
 //   return newCollection
 // }
-
-
-function findMatching(drivers, value){
-  let matching = drivers.filter(function(driver){
-  return  driver.name == value
-  })
-  return matching
-}
