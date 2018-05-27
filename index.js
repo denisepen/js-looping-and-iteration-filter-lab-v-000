@@ -5,8 +5,8 @@ const drivers =
 {name: "tammy"}
 ]
 
-
-let newCollection = function findMatching(name, drivers){
+let newCollection = []
+newCollection = function findMatching(name, drivers){
   for (let i = 0; i <= drivers.length; i++){
     return name === drivers[i].name
   }
