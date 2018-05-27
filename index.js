@@ -6,7 +6,7 @@ const drivers =
 ]
 
 let newCollection = []
-newCollection = drivers.filter(drivers, findMatching)
+newCollection = drivers.filter(findMatching)
 
 function findMatching(name){
   return drivers.name == name
