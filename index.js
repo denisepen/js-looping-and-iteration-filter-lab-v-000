@@ -17,7 +17,7 @@ const drivers =
 let collection = []
 collection = drivers.filter(findMatching(value){return value == drivers.name})
 
-function findMatching(value){
+function findMatching(value, drivers){
   return value;
 }
 
