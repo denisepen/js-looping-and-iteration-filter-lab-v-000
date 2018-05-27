@@ -5,14 +5,16 @@ const drivers =
 {name: "tammy"}
 ]
 
-// let newCollection = []
-// function findMatching(name, driver){
-//   for (let i = 0; i <= driver.length; i++){
-//     if (name === driver[i].name){
-//      newCollection.push(name)
-//     }
-//   }
-// }
+let newCollection = []
+
+function findMatching(name, driver){
+  for (let i = 0; i <= driver.length; i++){
+    if (name === driver[i].name){
+     newCollection.push(name)
+    }
+  }
+  return newCollection
+}
 
 
 
