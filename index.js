@@ -6,7 +6,7 @@ const drivers =
 {name: "sandy"}]
 
 
-function findMatching(drivers, name){
+function findMatching(array, name){
   newCollection = drivers.filter(function(name) {
   return  name == drivers.name
   }
