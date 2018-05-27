@@ -26,7 +26,7 @@ function findMatching(drivers, value){
 
 function fuzzyMatch(drivers, letter){
   let matching = drivers.filter(function(driver){
-    if(driver.toLowerCase().startsWith(letter)){
+    if(driver.startsWith(letter)){
       return driver
     }
 
