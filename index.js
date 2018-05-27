@@ -13,7 +13,7 @@ function findMatching(drivers, name){
   return newCollection;
 }
 
-    drivers.filter(findMatching(drivers, name) {
+    drivers.filter(findMatching(name) {
     }
 
 findMatching(drivers, string)
