@@ -1,9 +1,8 @@
 // Code your solution in this file
 const drivers =
-[{name: "betty"},
-{name: "dave"},
-{name: "frank"},
-{name: "sandy"}]
+[{name: "Bobby"},
+{name: "Bobby"},
+]
 
 
 function findMatching(drivers, name){
