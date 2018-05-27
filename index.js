@@ -6,8 +6,8 @@ const drivers =
 {name: "sandy"}]
 
 
-function findMatching(drivers, string){
-    drivers.filter(function(string) {return string == drivers.name};  );
+function findMatching(drivers, name){
+    drivers.filter(function(name) {return name == drivers.name};  );
 }
 
 findMatching(drivers, string)
