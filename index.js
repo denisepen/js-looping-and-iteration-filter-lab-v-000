@@ -18,7 +18,7 @@ const drivers =
 
 
 function findMatching(driver, value){
-  let matching = drivers.filter(function(driver, value){
+  let matching = drivers.filter(function(driver){
     driver.name == value
   })
   return matching
