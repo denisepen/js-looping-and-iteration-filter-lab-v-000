@@ -16,10 +16,11 @@ let newCollection = []
 //   return newCollection
 // }
 
-let matching = drivers.filter(function(driver, value){
-  driver.name ==value
-})
+
 function findMatching(){
+  let matching = drivers.filter(function(driver, value){
+    driver.name ==value
+  })
   return matching
 }
 // function findMatching(drivers, name){
