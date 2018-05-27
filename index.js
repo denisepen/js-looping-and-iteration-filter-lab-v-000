@@ -6,11 +6,11 @@ const drivers =
 ]
 
 
-function findMatching(value, index, driver){
-  return value == driver.name
+function findMatching(value, driver){
+  for (let i = 0, i <= driver.length, i++)
+  return value === driver.name.toLowerCase
 }
-let newCollection = []
-newCollection = drivers.filter(findMatching)
+let newCollection = drivers.filter(findMatching)
 //
 // function findMatching(name, drivers){
 //   return drivers.name == name
