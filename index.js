@@ -12,7 +12,7 @@ const drivers =
 //   return drivers.name == name
 // }
 function findMatching(value, index, driver){
-  value = driver.name
+  return value == driver.name
 }
 
 // function findMatching(drivers, name){
