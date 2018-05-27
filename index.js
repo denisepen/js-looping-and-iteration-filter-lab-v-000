@@ -9,7 +9,7 @@ let newCollection = []
 function findMatching(name, drivers){
   for (let i = 0; i <= drivers.length; i++){
     if (name === drivers[i].name){
-      return newCollection.push(name)
+      return name
     }
   }
 }
