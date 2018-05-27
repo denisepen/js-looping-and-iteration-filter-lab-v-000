@@ -5,7 +5,7 @@ const drivers =
 {name: "tammy"}
 ]
 
-function findMatching(drivers, value){
+function matchName(drivers, value){
   let matching = drivers.filter(function(driver){
   return  driver.name == value
   })
