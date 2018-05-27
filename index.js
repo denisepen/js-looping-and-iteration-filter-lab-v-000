@@ -10,7 +10,7 @@ function findMatching(value, drivers){
   for (let i = 0, i <= drivers.length, i++)
   return value === drivers[i].name.toLowerCase
 }
-let newCollection = drivers.filter(findMatching)
+// let newCollection = drivers.filter(findMatching)
 //
 // function findMatching(name, drivers){
 //   return drivers.name == name
