@@ -7,7 +7,7 @@ const drivers =
 
 newCollection = drivers.filter(findMatching)
 
-function findMatching(drivers,name){
+function findMatching(name){
   return drivers.name == name
 }
 
