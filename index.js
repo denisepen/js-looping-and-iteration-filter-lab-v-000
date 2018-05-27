@@ -12,7 +12,7 @@ function findMatching(drivers, value){
   return matching
 }
 
-function fuzzyMatch(){
+function fuzzyMatch(drivers, letter){
 
 }
 
