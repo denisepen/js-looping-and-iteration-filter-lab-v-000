@@ -7,7 +7,11 @@ const drivers =
 
 
 function findMatching(drivers, name){
-    drivers.filter(function(name) {return name == drivers.name};  );
+  newCollection = []
+    drivers.filter(function(name) {
+      if ( name == drivers.name)
+      newCollection.push(drivers.name)};
+      return newCollection;
 }
 
 findMatching(drivers, string)
