@@ -7,8 +7,10 @@ const drivers =
 
 
 function findMatching(name, drivers){
-  for (let i = 0; i <= drivers.length; i++)
-  return name === drivers[i].name
+  for (let i = 0; i <= drivers.length; i++){
+    return name === drivers[i].name
+  }
+
 }
  let newCollection = drivers.filter(findMatching)
 //
