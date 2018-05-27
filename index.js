@@ -5,15 +5,14 @@ const drivers =
 {name: "tammy"}
 ]
 
+newCollection = drivers.filter(findMatching)
+
+function findMatching(drivers,name){
+  return drivers.name == name
+}
 
 // function findMatching(drivers, name){
 //   newCollection = drivers.filter(function(name)
 //    {return  drivers.name == name})
 // return newCollection
 // }
-
-newCollection = drivers.filter(findMatching)
-
-function findMatching(drivers,name){
-  return drivers.name == name
-}
