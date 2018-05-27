@@ -10,7 +10,5 @@ function findMatching(drivers, name){
   newCollection = drivers.filter(function(name) {
   return  name == drivers.name
   }
-  // if ( name == drivers.name)
-  // newCollection.push(drivers.name)};
   return newCollection;
 }
