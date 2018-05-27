@@ -22,7 +22,7 @@ function findMatching(value){
 }
 
 // function findMatching(drivers, name){
-newCollection = drivers.filter(findMatching(name, drivers))
+// newCollection = drivers.filter(findMatching(name, drivers))
 //    {return  drivers.name === name})
 // return newCollection
 // }
