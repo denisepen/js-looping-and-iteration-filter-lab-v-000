@@ -15,7 +15,7 @@ function findMatching(name, drivers){
 }
 
 // function findMatching(drivers, name){
-newCollection = drivers.filter(findMatching())
+newCollection = drivers.filter(findMatching(name, drivers))
 //    {return  drivers.name === name})
 // return newCollection
 // }
