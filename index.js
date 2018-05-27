@@ -5,7 +5,7 @@ const drivers =
 {name: "tammy"}
 ]
 
-let newCollection = []
+// let newCollection = []
 
 // function findMatching(value, driver){
 //   for (let i = 0; i <= driver.length; i++){
