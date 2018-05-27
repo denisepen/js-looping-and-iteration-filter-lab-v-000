@@ -4,6 +4,7 @@ const drivers =
 {name: "Fred"},
 {name: "tammy"}
 ]
+newDriver = ["Ray", "Belle", "Frank"]
 
 function matchName(drivers, value){
   let matching = drivers.filter(function(driver){
@@ -14,7 +15,7 @@ function matchName(drivers, value){
 
 function findMatching(drivers, value){
   let matching = drivers.filter(function(driver){
-    if(driver.name == value){
+    if(driver == value){
       return driver.name
     }
 
