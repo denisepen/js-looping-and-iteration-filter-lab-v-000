@@ -5,13 +5,20 @@ const drivers =
 {name: "tammy"}
 ]
 
-let newCollection = []
-function findMatching(name, driver){
-  for (let i = 0; i <= driver.length; i++){
-    if (name === driver[i].name){
-      return name
-    }
-  }
+// let newCollection = []
+// function findMatching(name, driver){
+//   for (let i = 0; i <= driver.length; i++){
+//     if (name === driver[i].name){
+//       return name
+//     }
+//   }
+// }
+
+let collection = []
+collection = drivers.filter(findMatching(){value == drivers.name})
+
+function findMatching(value){
+  return value;
 }
 
 // function findMatching(drivers, name){
