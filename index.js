@@ -14,6 +14,6 @@ const drivers =
 
 function findMatching(drivers, name){
   newCollection = drivers.filter(function(name)
-   {return  drivers.name == name})
+   {return  drivers.name === name})
 return newCollection
 }
