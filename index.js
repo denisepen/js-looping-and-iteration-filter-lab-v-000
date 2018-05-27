@@ -16,12 +16,9 @@ let newCollection = []
 //   return newCollection
 // }
 
-function findMatching({drivers.filter(function(driver){
-  return driver.name == "Bobby"
+let matching = drivers.filter(function(driver, value){
+  driver.name ==value
 })
-
-)}
-
 // function findMatching(drivers, name){
 // newCollection = drivers.filter(findMatching(name, drivers))
 //    {return  drivers.name === name})
