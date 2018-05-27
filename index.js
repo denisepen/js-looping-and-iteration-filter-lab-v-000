@@ -12,15 +12,7 @@ function findMatching(name, drivers){
       return newCollection.push(name)
     }
   }
-
 }
- // let newCollection = drivers.filter(findMatching)
-//
-// function findMatching(name, drivers){
-//   return drivers.name == name
-// }
-
-
 // function findMatching(drivers, name){
 //   newCollection = drivers.filter(function(name)
 //    {return  drivers.name === name})
