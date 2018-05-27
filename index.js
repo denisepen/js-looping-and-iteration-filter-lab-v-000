@@ -12,6 +12,10 @@ function findMatching(drivers, value){
   return matching
 }
 
+function fuzzyMatch(){
+
+}
+
 // let newCollection = []
 
 // function findMatching(value, driver){
