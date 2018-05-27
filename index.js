@@ -11,9 +11,12 @@ const drivers =
 // function findMatching(name, drivers){
 //   return drivers.name == name
 // }
-
-function findMatching(drivers, name){
-  newCollection = drivers.filter(function(name)
-   {return  drivers.name === name})
-return newCollection
+function findMatching(value, index, driver){
+  value = driver.name
 }
+
+// function findMatching(drivers, name){
+//   newCollection = drivers.filter(function(name)
+//    {return  drivers.name === name})
+// return newCollection
+// }
