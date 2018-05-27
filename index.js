@@ -9,6 +9,6 @@ const drivers =
 function findMatching(array, name){
   newCollection = drivers.filter(function(name) {
   return  name == drivers.name
-  }
+})
   return newCollection;
 }
